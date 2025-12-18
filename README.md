@@ -1,4 +1,3 @@
-# DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-
 
 # DISA STIG Compliance Assessment – Windows 11 (Azure VM)
 
@@ -45,7 +44,7 @@ The system was **intentionally misconfigured** to trigger STIG findings and vali
 A Windows 11 Pro virtual machine was created in Azure and validated for connectivity via RDP.
 
 <p align="center">
-  <img src="images/stig-vm-deployment.png" width="700">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS2.png?raw=true" width="700">
 </p>
 
 ---
@@ -59,7 +58,7 @@ To validate STIG findings, multiple **non-compliant configurations** were delibe
 - Account controls misconfigured
 
 <p align="center">
-  <img src="images/firewall-disabled.png" width="700">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS3.png?raw=true" width="700">
 </p>
 
 ---
@@ -73,7 +72,27 @@ The following **high-risk STIG violations** were intentionally introduced:
 - Password expiration and complexity policies disabled
 
 <p align="center">
-  <img src="images/guest-admin.png" width="800">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS4.png?raw=true" width="800">
+</p>
+
+<p align="center">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS5.png?raw=true" width="800">
+</p>
+
+<p align="center">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS6.png?raw=true" width="800">
+</p>
+
+<p align="center">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS7.png?raw=true" width="800">
+</p>
+
+<p align="center">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS8.png?raw=true" width="800">
+</p>
+
+<p align="center">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS9.png?raw=true" width="800">
 </p>
 
 ---
@@ -88,7 +107,7 @@ An **Advanced Network Scan** was configured with:
 - Server service enabled
 
 <p align="center">
-  <img src="images/nessus-advanced-scan.png" width="800">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS10.png?raw=true" width="800">
 </p>
 
 ---
@@ -97,7 +116,15 @@ An **Advanced Network Scan** was configured with:
 The **DISA Microsoft Windows 11 STIG v2r4** compliance audit was added to the scan.
 
 <p align="center">
-  <img src="images/stig-selection.png" width="800">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS11.png?raw=true" width="800">
+</p>
+
+<p align="center">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS12.png?raw=true" width="800">
+</p>
+
+<p align="center">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS14.png?raw=true" width="800">
 </p>
 
 ---
@@ -106,7 +133,15 @@ The **DISA Microsoft Windows 11 STIG v2r4** compliance audit was added to the sc
 The scan was executed on-demand against the internal VM IP address and completed successfully.
 
 <p align="center">
-  <img src="images/stig-scan-running.png" width="700">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS15.png?raw=true" width="700">
+</p>
+
+<p align="center">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS16.png?raw=true" width="700">
+</p>
+
+<p align="center">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS17.png?raw=true" width="700">
 </p>
 
 ---
@@ -120,7 +155,7 @@ The scan was executed on-demand against the internal VM IP address and completed
 - **Low:** 2  
 
 <p align="center">
-  <img src="images/vuln-summary.png" width="700">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS18.png?raw=true" width="700">
 </p>
 
 ---
@@ -133,7 +168,7 @@ Out of **259 total STIG checks**:
 - **97 Passed**
 
 <p align="center">
-  <img src="images/stig-overview.png" width="800">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS19.png?raw=true" width="800">
 </p>
 
 ---
@@ -147,7 +182,11 @@ The scan correctly identified the following failures:
 - **WN11-SO-000010** – Built-in guest account must be disabled  
 
 <p align="center">
-  <img src="images/guest-stig-failure.png" width="800">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS20.png?raw=true" width="800">
+</p>
+
+<p align="center">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS21.png?raw=true" width="800">
 </p>
 
 ---
@@ -162,7 +201,7 @@ Multiple authentication-related STIGs failed due to intentional misconfiguration
 - RDP password prompts not enforced  
 
 <p align="center">
-  <img src="images/password-stig-failures.png" width="800">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS22.png?raw=true" width="800">
 </p>
 
 ---
