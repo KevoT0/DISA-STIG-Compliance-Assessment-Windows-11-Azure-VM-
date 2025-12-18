@@ -36,7 +36,7 @@ The system was **intentionally misconfigured** to trigger STIG findings and vali
 - Authenticated scanning enabled using local admin credentials  
 
 <p align="center">
-  <img src="images/stig-architecture.png" alt="STIG Lab Architecture" width="800">
+  <img src="https://github.com/KevoT0/DISA-STIG-Compliance-Assessment-Windows-11-Azure-VM-/blob/main/DS1.png?raw=true" alt="STIG Lab Architecture" width="800">
 </p>
 
 ---
